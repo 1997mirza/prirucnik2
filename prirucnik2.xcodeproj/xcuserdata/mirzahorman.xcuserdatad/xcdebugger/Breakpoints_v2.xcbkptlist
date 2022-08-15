@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "960B309E-1BBF-475C-A738-7BF8BF0DBEB7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "prirucnik2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "512"
+            endingLineNumber = "512"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - 860c2e5d637bac89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.mjera6.getter : Swift.String"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "103">
+               </Location>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - 39b941f8ef435c9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.mjera6.setter : Swift.String"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - 411aefbb6a2b788c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.mjera6.modify : Swift.String"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - e5d59348fc919a9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.mjera6.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - c98994ddc61243ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; prirucnik2.ViewController"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "44299">
+               </Location>
+               <Location
+                  uuid = "200E4553-739B-44E0-BF58-D2E05FB85DC3 - a76ef696647b3145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "prirucnik2.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;prirucnik2.ViewController&gt;"
+                  moduleName = "prirucnik2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mirzahorman/Desktop/ios/prirucnik2/prirucnik2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "514"
+                  endingLineNumber = "514"
+                  offsetFromSymbolStart = "44247">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

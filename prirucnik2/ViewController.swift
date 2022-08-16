@@ -776,68 +776,32 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
-    func callAPI(){
-        guard let url = URL(string: "https://creativocentar.ba/data.json") else{
-            return
-        }
-
-
-        let task = URLSession.shared.dataTask(with: url){ [self]
-            data, response, error in
-            guard let data = data, error == nil else { return }
-            do {
-                   let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:Any]
-                   let data = json["data"] as? [[String: Any]] ?? []
-                naslov1 = (data[0]["naslov"]) as! String
-                naslov2 = (data[1]["naslov"]) as! String
-                naslov3 = (data[2]["naslov"]) as! String
-                naslov4 = (data[3]["naslov"]) as! String
-                naslov5 = (data[4]["naslov"]) as! String
-                naslov6 = (data[5]["naslov"]) as! String
-                naslov7 = (data[6]["naslov"]) as! String
-                naslov8 = (data[7]["naslov"]) as! String
-                naslov9 = (data[8]["naslov"]) as! String
-                naslov10 = (data[9]["naslov"]) as! String
-                naslov11 = (data[10]["naslov"]) as! String
-                naslov12 = (data[11]["naslov"]) as! String
-                naslov13 = (data[12]["naslov"]) as! String
-                naslov14 = (data[13]["naslov"]) as! String
-                naslov15 = (data[14]["naslov"]) as! String
-                naslov16 = (data[15]["naslov"]) as! String
-                naslov17 = (data[16]["naslov"]) as! String
-                naslov18 = (data[17]["naslov"]) as! String
-                naslov19 = (data[18]["naslov"]) as! String
-                naslov20 = (data[19]["naslov"]) as! String
-                naslov21 = (data[20]["naslov"]) as! String
-                naslov22 = (data[21]["naslov"]) as! String
-                naslov23 = (data[22]["naslov"]) as! String
-                naslov24 = (data[23]["naslov"]) as! String
-                naslov25 = (data[24]["naslov"]) as! String
-                naslov26 = (data[25]["naslov"]) as! String
-                naslov27 = (data[26]["naslov"]) as! String
-                naslov28 = (data[27]["naslov"]) as! String
-                naslov29 = (data[28]["naslov"]) as! String
-                naslov30 = (data[29]["naslov"]) as! String
-                naslov31 = (data[30]["naslov"]) as! String
-                naslov32 = (data[31]["naslov"]) as! String
-                naslov33 = (data[32]["naslov"]) as! String
-                naslov34 = (data[33]["naslov"]) as! String
-                naslov35 = (data[34]["naslov"]) as! String
-                naslov36 = (data[35]["naslov"]) as! String
-                naslov37 = (data[36]["naslov"]) as! String
-
-               } catch let error as NSError {
-                   print(error)
-               }
-
-        }
-
-        task.resume()
-    }
+//    func callAPI(){
+//        guard let url = URL(string: "https://creativocentar.ba/data.json") else{
+//            return
+//        }
+//
+//
+//        let task = URLSession.shared.dataTask(with: url){ [self]
+//            data, response, error in
+//            guard let data = data, error == nil else { return }
+//            do {
+//                   let json = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as! [String:Any]
+//                   let data = json["data"] as? [[String: Any]] ?? []
+//
+//                //
+//               } catch let error as NSError {
+//                   print(error)
+//               }
+//
+//        }
+//
+//        task.resume()
+//    }
     
     override func viewDidLoad() {
         gif2.loadGif(name : "megafon")
-        callAPI()
+//        callAPI()
     }
     
  
